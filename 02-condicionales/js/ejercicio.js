@@ -80,11 +80,9 @@ try {
 
 } catch (error) {
 
-    resultadoRaiz.textContent = `Error: ${error.message} `,
+    resultadoRaiz.textContent = `Error: ${error.message} `
     
 }
-   
-
 
 })
 
