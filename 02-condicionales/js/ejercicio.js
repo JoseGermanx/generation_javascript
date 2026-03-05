@@ -62,25 +62,25 @@ try {
      const numero = Number(valor);
 
      if (valor === ""){
-        throw new Error("Deber ingresar un valor.")
+        throw new Error("Deber ingresar un valor.");
      }
 
      if (isNaN(numero)) {
-        throw new Error("Debe ingresar un número válido.")
+        throw new Error("Debe ingresar un número válido.");
      }
 
      if (numero < 0) {
-        throw new Error("Debes ingresar un número positivo.")
+        throw new Error("Debes ingresar un número positivo.");
      }
 
 
-    const raiz = Math.sqrt(numero)
+    const raiz = Math.sqrt(numero);
 
-    resultadoRaiz.textContent = `La raíz cuadrada de ${numero} es: ${raiz}`
+    resultadoRaiz.textContent = `La raíz cuadrada de ${numero} es: ${raiz}`;
 
 } catch (error) {
 
-    resultadoRaiz.textContent = `Error: ${error.message}  `
+    resultadoRaiz.textContent = `Error: ${error.message} `,
     
 }
    
