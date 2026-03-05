@@ -79,11 +79,8 @@ try {
     resultadoRaiz.textContent = `La raíz cuadrada de ${numero} es: ${raiz}`;
 
 } catch (error) {
-
     resultadoRaiz.textContent = `Error: ${error.message} `
-    
 }
-
 })
 
 
