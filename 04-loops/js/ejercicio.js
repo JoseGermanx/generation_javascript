@@ -42,7 +42,35 @@ botonContar.addEventListener("click", function(){
 })
 
 
-
 // Crear un input donde el usuario escriba un número.
 
 // Al presionar "Contar hasta ese número", mostrar los números desde 1 hasta el número ingresado usando do...while.
+
+const inputNumero = document.getElementById("numero");
+const botonDo = document.getElementById("btnDoWhile");
+const resultado = document.getElementById("resultadoDo");
+
+botonDo.addEventListener("click", function(){
+
+let limite = inputNumero.value;
+
+if (limite === "" || limite < 1){
+    alert("Ingrese un número mayor a 0")
+    return
+}
+
+let contador = 1;
+
+let texto = ""; // 1 2 3 4 5 ... hasta el número del input
+
+do {
+    texto += contador + " ";
+    contador++
+} while (contador <= limite);
+
+
+
+
+resultado.textContent = texto;
+
+});
