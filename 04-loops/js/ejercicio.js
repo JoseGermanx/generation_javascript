@@ -22,6 +22,24 @@ botonNumeros.addEventListener("click", function(){
 
 // Cuando el usuario haga clic, mostrar en un <p> los números 1 2 3 4 5 usando un ciclo while.
 
+const botonContar = document.getElementById("btnContar");
+const parrafoResultado = document.getElementById("resultado");
+
+
+botonContar.addEventListener("click", function(){
+
+    let numero = 1;
+    let texto = ""; // 1 2 3 4 5 (resultado esperado)
+
+    while(numero <= 5){
+        
+        texto += numero + " ";
+        numero++
+    }
+
+    parrafoResultado.textContent = texto;
+
+})
 
 
 
