@@ -4,20 +4,21 @@
 let i = 0;
 
 // i < 10
-// while (i < 20) {
+while (i < 20) {
 
-//     console.log("Ejecutar: " + i);
+    console.log("Ejecutar: " + i);
 
-//     i++
-// };
+    i++
+};
 
 
 // do .. while
 
+let y = 0;
 do {
 
-console.log("Ejecutar: " + i);
+console.log("Ejecutar: " + y);
 
-i++;
+y++;
 
-} while (i < 20)
+} while (y < 10)
