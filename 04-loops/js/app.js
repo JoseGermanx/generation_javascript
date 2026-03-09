@@ -13,6 +13,9 @@
 // == comparador sin tomar en consideración el tipo de dato
 // === comparador /estricto) que si toma en consideración el tipo de dato
 
+
+// ciclo for
+
 for (let i = 1; i <= 10; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         console.log("FizzBuzz")
