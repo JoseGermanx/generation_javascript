@@ -16,6 +16,6 @@
 
 
 
-// Crear un botón "Contar hasta 5".
+// Crear un input donde el usuario escriba un número.
 
-// Cuando el usuario haga clic, mostrar en un <p> los números 1 2 3 4 5 usando un ciclo while.
+// Al presionar "Contar hasta ese número", mostrar los números desde 1 hasta el número ingresado usando do...while.
