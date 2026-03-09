@@ -4,8 +4,17 @@
 
 // Cada número debe aparecer dentro de un <li> dentro de una lista <ul>.
 
+const botonNumeros = document.getElementById("btnNumeros");
+const lista = document.getElementById("lista");
 
+botonNumeros.addEventListener("click", function(){
 
+    for (let i = 1; i <= 10; i++){
+        const item = document.createElement("li");
+        item.textContent = `Valor de la iteración: ${i}`;
+        lista.appendChild(item);
+    }
+});
 
 
 
