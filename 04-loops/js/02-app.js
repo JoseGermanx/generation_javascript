@@ -1,7 +1,7 @@
 
 // while
 
-let i = 0;
+let i = 40;
 
 // i < 10
 while (i < 20) {
@@ -14,7 +14,7 @@ while (i < 20) {
 
 // do .. while
 
-let y = 0;
+let y = 200;
 do {
 
 console.log("Ejecutar: " + y);
