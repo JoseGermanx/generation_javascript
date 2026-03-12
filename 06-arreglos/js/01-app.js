@@ -70,7 +70,7 @@ for(const producto of productos) {
     <li>
      <h3>Nombre: ${producto[0]}</h3>
      <p>Color: ${producto[1]}</p>
-     <small>Nombre: ${producto[2]}</small>    
+     <small>Precio: $${producto[2]}</small>    
     </li>
     `
 };
