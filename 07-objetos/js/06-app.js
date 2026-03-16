@@ -26,6 +26,7 @@ class User {
 };
 
 const usuario = new User("Luisa", "luisa@luisa.com", "123456");
+console.log(usuario)
 
 const login = prompt("Ingresa tu contraseña");
 

@@ -5,6 +5,7 @@ console.log("Hola mundo . Prototipos")
 function Usuario(nombre, edad) {
     this.nombre = nombre;
     this.edad = edad;
+
     this.saludar = function(){
         console.log(`Hola soy ${this.nombre} y tengo ${this.edad} años.`)
     }
